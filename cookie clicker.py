@@ -144,7 +144,11 @@ def popWrinklers(stopped):
             stop = True
             return stop
         clickFaster((int(COOKIE_COORDS[0] + (cos(degree)*distance)),int(COOKIE_COORDS[1] + (sin(degree)*distance))))
+        clickFaster((int(COOKIE_COORDS[0] + (cos(degree)*distance)),int(COOKIE_COORDS[1] + (sin(degree)*distance))))
+        clickFaster((int(COOKIE_COORDS[0] + (cos(degree)*distance)),int(COOKIE_COORDS[1] + (sin(degree)*distance))))
         degree += 1
+    clickFaster((int(COOKIE_COORDS[0] + (cos(degree)*distance)),int(COOKIE_COORDS[1] + (sin(degree)*distance))))
+    clickFaster((int(COOKIE_COORDS[0] + (cos(degree)*distance)),int(COOKIE_COORDS[1] + (sin(degree)*distance))))
     clickFaster((int(COOKIE_COORDS[0] + (cos(degree)*distance)),int(COOKIE_COORDS[1] + (sin(degree)*distance))))
     return stop
 
